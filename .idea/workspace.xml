@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad883965-fe48-4f2a-9c77-32ecbcb0aeec" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="cbus3" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Q0P3xdgMUWi3xtGRsOr4yY7Wqy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad883965-fe48-4f2a-9c77-32ecbcb0aeec" name="Default Changelist" comment="" />
+      <created>1566904345035</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566904345035</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="321" y="157" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575454966143">
+      <screen x="0" y="0" width="1280" height="853" />
+    </state>
+    <state x="321" y="157" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.853@0.0.1280.853" timestamp="1575454966143" />
+    <state x="348" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1575539058950">
+      <screen x="0" y="0" width="1280" height="853" />
+    </state>
+    <state x="348" y="254" key="com.intellij.ide.util.TipDialog/0.0.1280.853@0.0.1280.853" timestamp="1575539058950" />
+  </component>
+</project>
