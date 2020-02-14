@@ -9,26 +9,26 @@ import json
 
 #import serial
 
-cbuslamps = {"16": {'name': 'Porch',    'lamp_x':  '10', 'lamp_y': '275', 'label_x':  '45', 'label_y': '265', 'level': 2, 'chnged': 'N'},
-             "14": {'name': 'Entrance', 'lamp_x':  '70', 'lamp_y': '275', 'label_x': '105', 'label_y': '265', 'level': 2, 'chnged': 'N'},
-             "15": {'name': 'Study',    'lamp_x': '130', 'lamp_y': '275', 'label_x': '165', 'label_y': '265', 'level': 2, 'chnged': 'N'},
-             "12": {'name': 'Master',   'lamp_x': '190', 'lamp_y': '275', 'label_x': '225', 'label_y': '265', 'level': 2, 'chnged': 'N'},
-             "13": {'name': 'Lounge',   'lamp_x':  '10', 'lamp_y': '211', 'label_x':  '45', 'label_y': '201', 'level': 2, 'chnged': 'N'},
-             "0A": {'name': 'Passage',  'lamp_x':  '70', 'lamp_y': '211', 'label_x': '105', 'label_y': '201', 'level': 2, 'chnged': 'N'},
-             "11": {'name': 'Bathroom', 'lamp_x': '130', 'lamp_y': '211', 'label_x': '165', 'label_y': '201', 'level': 2, 'chnged': 'N'},
-             "10": {'name': 'Toilet',   'lamp_x': '190', 'lamp_y': '211', 'label_x': '225', 'label_y': '201', 'level': 2, 'chnged': 'N'},
-             "0C": {'name': 'Dining',   'lamp_x':  '10', 'lamp_y': '147', 'label_x':  '45', 'label_y': '137', 'level': 2, 'chnged': 'N'},
-             "09": {'name': 'Matt',     'lamp_x':  '70', 'lamp_y': '147', 'label_x': '105', 'label_y': '137', 'level': 2, 'chnged': 'N'},
-             "05": {'name': 'Bench',    'lamp_x': '130', 'lamp_y': '147', 'label_x': '165', 'label_y': '137', 'level': 2, 'chnged': 'N'},
-             "06": {'name': 'Kitchen',  'lamp_x': '190', 'lamp_y': '147', 'label_x': '225', 'label_y': '137', 'level': 2, 'chnged': 'N'},
-             "0D": {'name': 'Family',   'lamp_x':  '10', 'lamp_y':  '83', 'label_x':  '45', 'label_y':  '73', 'level': 2, 'chnged': 'N'},
-             "03": {'name': 'Alex',     'lamp_x':  '70', 'lamp_y':  '83', 'label_x': '105', 'label_y':  '73', 'level': 2, 'chnged': 'N'},
-             "0B": {'name': 'Laundry',  'lamp_x': '130', 'lamp_y':  '83', 'label_x': '165', 'label_y':  '73', 'level': 2, 'chnged': 'N'},
-             "08": {'name': 'Side',     'lamp_x': '190', 'lamp_y':  '83', 'label_x': '225', 'label_y':  '73', 'level': 2, 'chnged': 'N'},
-             "01": {'name': 'Deck',     'lamp_x':  '10', 'lamp_y':  '19', 'label_x':  '45', 'label_y':   '9', 'level': 2, 'chnged': 'N'},
-             "00": {'name': 'Hall',     'lamp_x':  '70', 'lamp_y':  '19', 'label_x': '105', 'label_y':   '9', 'level': 2, 'chnged': 'N'},
-             "02": {'name': 'B/Room',   'lamp_x': '130', 'lamp_y':  '19', 'label_x': '165', 'label_y':   '9', 'level': 2, 'chnged': 'N'},
-             "07": {'name': 'Alex2',    'lamp_x': '190', 'lamp_y':  '19', 'label_x': '225', 'label_y':   '9', 'level': 2, 'chnged': 'N'}
+cbuslamps = {"16": {'name': 'Porch',    'lamp_x':  '10', 'lamp_y': '275', 'label_x':  '45', 'label_y': '265', 'level': 2, 'chnged': 'N', 'lstate': 'Off'},
+             "14": {'name': 'Entrance', 'lamp_x':  '70', 'lamp_y': '275', 'label_x': '105', 'label_y': '265', 'level': 2, 'chnged': 'N', 'lstate': 'Off'},
+             "15": {'name': 'Study',    'lamp_x': '130', 'lamp_y': '275', 'label_x': '165', 'label_y': '265', 'level': 2, 'chnged': 'N', 'lstate': 'Off'},
+             "12": {'name': 'Master',   'lamp_x': '190', 'lamp_y': '275', 'label_x': '225', 'label_y': '265', 'level': 2, 'chnged': 'N', 'lstate': 'Off'},
+             "13": {'name': 'Lounge',   'lamp_x':  '10', 'lamp_y': '211', 'label_x':  '45', 'label_y': '201', 'level': 2, 'chnged': 'N', 'lstate': 'Off'},
+             "0A": {'name': 'Passage',  'lamp_x':  '70', 'lamp_y': '211', 'label_x': '105', 'label_y': '201', 'level': 2, 'chnged': 'N', 'lstate': 'Off'},
+             "11": {'name': 'Bathroom', 'lamp_x': '130', 'lamp_y': '211', 'label_x': '165', 'label_y': '201', 'level': 2, 'chnged': 'N', 'lstate': 'Off'},
+             "10": {'name': 'Toilet',   'lamp_x': '190', 'lamp_y': '211', 'label_x': '225', 'label_y': '201', 'level': 2, 'chnged': 'N', 'lstate': 'Off'},
+             "0C": {'name': 'Dining',   'lamp_x':  '10', 'lamp_y': '147', 'label_x':  '45', 'label_y': '137', 'level': 2, 'chnged': 'N', 'lstate': 'Off'},
+             "09": {'name': 'Matt',     'lamp_x':  '70', 'lamp_y': '147', 'label_x': '105', 'label_y': '137', 'level': 2, 'chnged': 'N', 'lstate': 'Off'},
+             "05": {'name': 'Bench',    'lamp_x': '130', 'lamp_y': '147', 'label_x': '165', 'label_y': '137', 'level': 2, 'chnged': 'N', 'lstate': 'Off'},
+             "06": {'name': 'Kitchen',  'lamp_x': '190', 'lamp_y': '147', 'label_x': '225', 'label_y': '137', 'level': 2, 'chnged': 'N', 'lstate': 'Off'},
+             "0D": {'name': 'Family',   'lamp_x':  '10', 'lamp_y':  '83', 'label_x':  '45', 'label_y':  '73', 'level': 2, 'chnged': 'N', 'lstate': 'Off'},
+             "03": {'name': 'Alex',     'lamp_x':  '70', 'lamp_y':  '83', 'label_x': '105', 'label_y':  '73', 'level': 2, 'chnged': 'N', 'lstate': 'Off'},
+             "0B": {'name': 'Laundry',  'lamp_x': '130', 'lamp_y':  '83', 'label_x': '165', 'label_y':  '73', 'level': 2, 'chnged': 'N', 'lstate': 'Off'},
+             "08": {'name': 'Side',     'lamp_x': '190', 'lamp_y':  '83', 'label_x': '225', 'label_y':  '73', 'level': 2, 'chnged': 'N', 'lstate': 'Off'},
+             "01": {'name': 'Deck',     'lamp_x':  '10', 'lamp_y':  '19', 'label_x':  '45', 'label_y':   '9', 'level': 2, 'chnged': 'N', 'lstate': 'Off'},
+             "00": {'name': 'Hall',     'lamp_x':  '70', 'lamp_y':  '19', 'label_x': '105', 'label_y':   '9', 'level': 2, 'chnged': 'N', 'lstate': 'Off'},
+             "02": {'name': 'B/Room',   'lamp_x': '130', 'lamp_y':  '19', 'label_x': '165', 'label_y':   '9', 'level': 2, 'chnged': 'N', 'lstate': 'Off'},
+             "07": {'name': 'Alex2',    'lamp_x': '190', 'lamp_y':  '19', 'label_x': '225', 'label_y':   '9', 'level': 2, 'chnged': 'N', 'lstate': 'Off'}
              }
 
 
@@ -187,6 +187,7 @@ client.on_message = on_message
 client.on_publish = on_publish
 
 client.connect("192.168.1.180", 1883, 60)
+#client.loop_start()
 
 # Blocking call that processes network traffic, dispatches callbacks and
 # handles reconnecting.
